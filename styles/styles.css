@@ -13,7 +13,7 @@ html {
 .hero-image {
   /* Use linear-gradient to add a darken background effect to the image. This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/banner.jpg);
+    url("https://freesvg.org/img/dark-plank.png");
   /* Set a specific height */
   height: 50%;
   /* Position and centre the image to scale nicely on all screens */
@@ -108,6 +108,11 @@ img {
 /* Create a nice area for menu text */
 .menu-item-text {
   flex-grow: 1;
+}
+
+/* Style the table */
+th, td {
+  padding-right: 1.5em;
 }
 
 /* Create a responsive container for the embed resources */
