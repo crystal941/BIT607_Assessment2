@@ -1,3 +1,4 @@
+/* Universal box sizing */
 * {
   box-sizing: border-box;
 }
@@ -11,12 +12,29 @@ html {
     "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
-/* Set web page heading style */
-h1 {
+/* The hero image */
+.hero-image {
+  /* Use linear-gradient to add a darken background effect to the image. This will make the text easier to read. */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/banner.jpg);
+  /* Set a specific height */
+  height: 50%;
+  /* Position and centre the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place the heading text in the middle of the image */
+.hero-text {
   text-align: center;
-  padding: 1em;
-  margin: 0;
-  background-color: #ffebcc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
 }
 
 /* Style the top navigation bar */
