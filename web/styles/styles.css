@@ -16,7 +16,7 @@ html {
 .hero-image {
   /* Use linear-gradient to add a darken background effect to the image. This will make the text easier to read. */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/banner.jpg);
+    url(../images/banner.jpg);
   /* Set a specific height */
   height: 50%;
   /* Position and centre the image to scale nicely on all screens */
